@@ -16,7 +16,7 @@ export default function Formulario ({agregar}) {
                 prioridad: prioridad
         }
 
-        if (notas.find(n => n.titulo === titulo)) {
+        if (notas.find(n => n.titulo === titulo && titulo != '')) {
             alert('Ya agregó esta nota')
         }else if (titulo.length > 34) {
             alert('El título es demasiado largo')
