@@ -36,34 +36,10 @@
 .card {
   padding: 5px;
   border-radius: 0%!important;
+
 }
 
 .read-the-docs {
   color: #888;
 }
 
-.card-importante {
-  background-color: red;
-}
-
-.card-normal {
-  background-color: palegoldenrod;
-}
-
-/* .container {
-  position: relative;
-  display: inline-block;
-}
-
-.borrar-icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-  z-index: 10;
-  transition: background 0.3s
-} */
-
-.btn-close {
-  align-items: right;
-}

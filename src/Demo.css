@@ -1,0 +1,61 @@
+
+#root {
+  margin: 0 auto auto;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(150, 155, 150, 0.438);
+}
+
+.card {
+  border-radius: 0%!important;
+  width: 15rem;
+  height: 15rem;
+}
+
+.card-importante {
+  background-color: rgb(223, 76, 76);
+  box-shadow: 0 4px 8px 0 black
+}
+
+.card-normal {
+  background-color: palegoldenrod;
+  box-shadow: 0 4px 8px 0 black
+}
+
+.btn-close {
+  align-items: right;
+}
+
+.btn-dark {
+  padding: 5px 7rem 5px 7rem;
+}
+
+
+.formulario {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjetas {
+  width: 250px;
+}
+
+h1 {
+  text-align: left;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+p {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
